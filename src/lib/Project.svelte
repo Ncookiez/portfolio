@@ -1,22 +1,18 @@
 <script lang="ts">
 
-	// Imports:
-	import { onMount } from 'svelte';
+	// Type Imports:
+	import type { Project } from '$lib/types';
 
 	// Initializations:
-	// :3
-
-	onMount(() => {
-		// :3
-	});
+	export let project: Project;
 
 </script>
 
 <!-- #################################################################################################### -->
 
-<div class="template">
+<div class="project">
 
-	<!-- HTML Goes Here -->
+	{project.title}
 
 </div>
 

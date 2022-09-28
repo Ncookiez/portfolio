@@ -1,21 +1,6 @@
 
-// Config Interface:
-interface Config {
-  ens: `${string}.eth`
-  github: string
-  twitter: string
-  projects: Project[]
-}
-
-// Project Interface:
-interface Project {
-  title: string
-  subtitle: string
-  description: string
-  image: `http${string}` | `/projects/${string}`
-  link?: string
-  repo?: string
-}
+// Type Imports:
+import type { Config, Project } from '$lib/types';
 
 /* ========================================================================================================================================================================= */
 

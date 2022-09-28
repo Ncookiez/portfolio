@@ -1,21 +1,22 @@
 <script lang="ts">
 
 	// Imports:
-	import '../app.css';
-	
+	import { config } from '$lib/config';
+
 </script>
 
 <!-- #################################################################################################### -->
 
-<!-- App Content -->
-<main><slot /></main>
+<section id="projectList">
+
+	<!-- HTML Goes Here -->
+	
+</section>
 
 <!-- #################################################################################################### -->
 
 <style>
 
-	main {
-		margin: 5em 1em 1em;
-	}
-
+	/* CSS Goes Here */
+	
 </style>

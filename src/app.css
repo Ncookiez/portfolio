@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 :root {
-	--primary-color: #0042ff;
-	--background-color: #050D18;
+	--fontColor: #e5e5e5;
+	--mutedFontColor: #888888;
+	--accentColor: #0042ff;
+	--backgroundColor: #010107;
 }
 
 * {
@@ -16,8 +20,9 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	color: #ffffff;
-	background-color: var(--background-color);
+	color: var(--fontColor);
+	font-family: 'Silkscreen', sans-serif;
+	background-color: var(--backgroundColor);
 }
 
 button {
@@ -34,4 +39,16 @@ button:disabled {
 
 button:focus {
 	outline: none;
+}
+
+::-webkit-scrollbar {
+	width: .7em;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--backgroundColor);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--fontColor);
 }

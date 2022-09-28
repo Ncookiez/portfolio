@@ -1,14 +1,8 @@
 <script lang="ts">
 
 	// Imports:
-	import { onMount } from 'svelte';
-
-	// Initializations:
-	// :3
-
-	onMount(() => {
-		// :3
-	});
+	import Header from '$lib/Header.svelte';
+	import Projects from '$lib/Projects.svelte';
 	
 </script>
 
@@ -20,10 +14,11 @@
 	<meta name="description" content="Where cookies and software development meet." />
 </svelte:head>
 
-<!-- Page Content -->
-<section>
-	<span>Where are the cookies?</span>
-</section>
+<!-- Portfolio Header -->
+<Header />
+
+<!-- Portfolio Projects -->
+<Projects />
 
 <!-- #################################################################################################### -->
 
