@@ -21,3 +21,19 @@ html, body {
 	color: #ffffff;
 	background-color: var(--secondary-color);
 }
+
+button {
+	font: inherit;
+	background: none;
+	border: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+button:focus {
+	outline: none;
+}

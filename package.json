@@ -1,14 +1,15 @@
 {
-	"name": "sveltekit-pwa-template",
-	"version": "0.0.1",
+	"name": "ncookie-portfolio",
+	"version": "0.1.0",
 	"type": "module",
+	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/kit": "1.0.0-next.427",
 		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.1",

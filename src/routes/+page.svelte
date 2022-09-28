@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
 
 	// Imports:
 	import { onMount } from 'svelte';
 
-	// Initializations & Exports:
+	// Initializations:
 	// :3
 
 	onMount(() => {
@@ -16,13 +16,13 @@
 
 <!-- SvelteKit Dynamic Header -->
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Home Page" />
+	<title>Ncookie's Portfolio</title>
+	<meta name="description" content="Where cookies and software development meet." />
 </svelte:head>
 
 <!-- Page Content -->
 <section>
-	<span>Home Page</span>
+	<span>Where are the cookies?</span>
 </section>
 
 <!-- #################################################################################################### -->

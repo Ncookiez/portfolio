@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
 
 	// Imports:
 	import { onMount } from 'svelte';
 
-	// Initializations & Exports:
+	// Initializations:
 	// :3
 
 	onMount(() => {
