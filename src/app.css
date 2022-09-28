@@ -1,8 +1,6 @@
 :root {
-	--primary-color: #b9c6d2;
-	--secondary-color: #161616;
-	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
+	--primary-color: #0042ff;
+	--background-color: #050D18;
 }
 
 * {
@@ -19,7 +17,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	color: #ffffff;
-	background-color: var(--secondary-color);
+	background-color: var(--background-color);
 }
 
 button {

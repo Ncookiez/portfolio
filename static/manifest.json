@@ -1,8 +1,8 @@
 {
   "name": "Ncookie's Portfolio",
   "short_name": "ncookie-portfolio",
-	"theme_color": "#1e88e5",
-  "background_color": "#3E82F7",
+	"theme_color": "#0042ff",
+  "background_color": "#050D18",
   "display": "minimal-ui",
   "start_url": "/",
   "icons": [
