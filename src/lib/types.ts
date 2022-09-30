@@ -1,7 +1,6 @@
 
 // Config Interface:
 export interface Config {
-  ens: `${string}.eth`
   github: string
   twitter: string
   projects: Project[]

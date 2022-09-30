@@ -42,13 +42,12 @@ button:focus {
 }
 
 ::-webkit-scrollbar {
+	display: none;
 	width: .7em;
 }
-
 ::-webkit-scrollbar-track {
 	background: var(--backgroundColor);
 }
-
 ::-webkit-scrollbar-thumb {
 	background: var(--fontColor);
 }

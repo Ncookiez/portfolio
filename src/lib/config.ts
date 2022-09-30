@@ -20,7 +20,6 @@ const projectsList: Project[] = [
 
 // App Content & Configuration:
 export const config: Config = {
-  ens: 'ncookie.eth',
   github: 'Ncookiez',
   twitter: 'ncookie_eth',
   projects: projectsList
