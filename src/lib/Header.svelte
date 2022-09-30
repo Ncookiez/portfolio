@@ -3,6 +3,19 @@
 	// Imports:
 	import { config } from '$lib/config';
 
+	// Initializations:
+	const tooltips = {
+		typescript: `TypeScript is JavaScript's annoying cousin that is very picky with variable types. It screams at me if I make a mistake instead of watching me debug for hours.`,
+		node: `Node.js is an open-source, cross-platform JavaScript runtime environment that can be used to build pretty much anything.`,
+		sveltekit: `SvelteKit is a web framework built on top of Svelte, facilitating web developement while being lighter, faster and more dev-friendly than React. Fight me.`,
+		ethers: `Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and other EVM-compatible chains.`,
+		weaverfi: `The WeaverFi SDK is my own library for querying anything from DeFi. It also powers the WeaverFi portfolio tracker!`,
+		blockchain: `A blockchain is a chain... of blocks. The cool part is that these blocks are validated by thousands of people all of the world.`,
+		decentralization: `Decentralization is the means through which we can excise scammy middlemen, greedy megacorporations and protect each other's privacy.`,
+		web3: `Web3 is the next-gen internet; a decentralized web of apps that power anything from social media to a financial system without banks.`,
+		openSource: `Open-source is how I roll. Transparent code is good code, and if it can help someone else do something cool, then even better.`
+	}
+
 </script>
 
 <!-- #################################################################################################### -->
@@ -23,9 +36,9 @@
 	<div id="info">
 		<h3>About Me</h3>
 		<p>I'm a software engineer, full-stack developer - whatever floats your boat.</p>
-		<p>My best web apps are made with <span class="highlight">Node.js</span> and <span class="highlight">SvelteKit</span>, making the most out of Web3 frameworks like <span class="highlight">Ethers.js</span> and <span class="highlight">WeaverFi</span> (my own SDK).</p>
-		<p>I've fallen in love with <span class="highlight">blockchain</span> technology, <span class="highlight">decentralization</span>, the <span class="highlight">Web3</span> community and there is definitely no going back.</p>
-		<p>Find me at your local hackathon building some <span class="highlight">open-source</span> project, or at a ski hill somewhere out there.</p>
+		<p>My best web apps are built with <span class="highlight">TypeScript<span class="tooltip">{tooltips.typescript}</span></span>, <span class="highlight">Node.js<span class="tooltip">{tooltips.node}</span></span> and <span class="highlight">SvelteKit<span class="tooltip">{tooltips.sveltekit}</span></span>, making the most out of Web3 libraries like <span class="highlight">Ethers.js<span class="tooltip">{tooltips.ethers}</span></span> and <span class="highlight">WeaverFi<span class="tooltip">{tooltips.weaverfi}</span></span> (my own SDK).</p>
+		<p>I've fallen in love with <span class="highlight">blockchain<span class="tooltip">{tooltips.blockchain}</span></span> technology, <span class="highlight">decentralization<span class="tooltip">{tooltips.decentralization}</span></span>, the <span class="highlight">Web3<span class="tooltip">{tooltips.web3}</span></span> community and there is definitely no going back.</p>
+		<p>Find me at your local hackathon building some <span class="highlight">open-source<span class="tooltip">{tooltips.openSource}</span></span> project, or at a ski hill somewhere out there.</p>
 	</div>
 
 	<!-- Social Media -->
@@ -121,7 +134,38 @@
 	}
 
 	.highlight {
+		position: relative;
 		color: var(--accentColor);
+		isolation: isolate;
+	}
+
+	.highlight > span.tooltip {
+		visibility: hidden;
+		position: absolute;
+		inset: auto auto calc(100% + .8em) 50%;
+		width: 25em;
+		margin-left: -12.5em;
+		padding: .5em;
+		text-align: center;
+		color: var(--fontColor);
+		font-size: .8em;
+		background: var(--accentColor);
+		border-radius: .5em;
+		box-shadow: 0 0 1em .5em var(--backgroundColor);
+		z-index: 1;
+	}
+
+	.highlight:hover span.tooltip {
+		visibility: visible;
+	}
+
+	.highlight span.tooltip::after {
+		content: '';
+		position: absolute;
+		inset: 100% auto auto 50%;
+		margin-left: -.8em;
+		border: .8em solid transparent;
+		border-top-color: var(--accentColor);
 	}
 	
 </style>
