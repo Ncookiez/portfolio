@@ -23,10 +23,16 @@
 	<img src="{project.image}" alt="{project.title}">
 
 	<!-- Project Links -->
-	<div class="links">
-		<a href="{project.link}" target="__blank">Live Project</a>
-		<a href="{project.repo}" target="__blank">Source Code</a>
-	</div>
+	{#if project.link || project.repo}
+		<div class="links">
+			{#if project.link}
+				<a href="{project.link}" target="__blank">Live Project</a>
+			{/if}
+			{#if project.repo}
+				<a href="{project.repo}" target="__blank">Source Code</a>
+			{/if}
+		</div>
+	{/if}
 
 </div>
 
@@ -61,8 +67,10 @@
 	}
 
 	img {
-		height: 10em;
-		width: 10em;
+		height: 8em;
+		width: 8em;
+		/* filter: drop-shadow(0 0 .5em var(--accentColor)); */
+		filter: drop-shadow(0 0 .5em var(--mutedFontColor));
 	}
 
 	div.links {

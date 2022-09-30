@@ -11,7 +11,7 @@ export interface Project {
   title: string
   subtitle: string
   description: string
-  image: `http${string}` | `/projects/${string}`
+  image: string
   link?: string
   repo?: string
 }
