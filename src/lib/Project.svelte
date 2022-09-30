@@ -12,7 +12,21 @@
 
 <div class="project">
 
-	{project.title}
+	<!-- Project Info -->
+	<div class="info">
+		<h3>{project.title}</h3>
+		<span class="subtitle">{project.subtitle}</span>
+		<p>{project.description}</p>
+	</div>
+
+	<!-- Project Logo/Image -->
+	<img src="{project.image}" alt="{project.title}">
+
+	<!-- Project Links -->
+	<div class="links">
+		<a href="{project.link}" target="__blank">Live Project</a>
+		<a href="{project.repo}" target="__blank">Source Code</a>
+	</div>
 
 </div>
 
@@ -20,6 +34,60 @@
 
 <style>
 
-	/* CSS Goes Here */
+	div.project {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 1em;
+		width: 55em;
+		padding: 1em 2em;
+		border: 3px solid var(--accentColor);
+	}
+
+	div.project:hover > div.links {
+		visibility: visible;
+	}
+
+	div.info {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: .5em;
+	}
+
+	div.info > p {
+		color: var(--mutedFontColor);
+		font-size: .8em;
+	}
+
+	img {
+		height: 10em;
+		width: 10em;
+	}
+
+	div.links {
+		visibility: hidden;
+		position: absolute;
+		inset: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+		backdrop-filter: brightness(.8) blur(6px);
+	}
+
+	div.links > a {
+		padding: .4em 1em .5em;
+		color: var(--mutedFontColor);
+		text-decoration: none;
+		background: var(--backgroundColor);
+		border: 3px solid transparent;
+		border-top-color: var(--accentColor);
+		border-bottom-color: var(--accentColor);
+	}
+
+	div.links > a:hover {
+		color: var(--fontColor);
+	}
 	
 </style>

@@ -15,7 +15,8 @@
 <style>
 
 	main {
-		margin: 5em 1em 1em;
+		padding: 5em 1em;
+		user-select: none;
 	}
 
 </style>

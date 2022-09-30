@@ -62,7 +62,6 @@
 		justify-content: center;
 		align-items: center;
 		gap: 4.5em;
-		user-select: none;
 	}
 
 	#banner {

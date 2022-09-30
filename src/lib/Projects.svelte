@@ -2,21 +2,28 @@
 
 	// Imports:
 	import { config } from '$lib/config';
+	import Project from '$lib/Project.svelte';
 
 </script>
 
 <!-- #################################################################################################### -->
 
 <section id="projectList">
-
-	<!-- HTML Goes Here -->
-	
+	{#each config.projects as project}
+		<Project {project} />
+	{/each}
 </section>
 
 <!-- #################################################################################################### -->
 
 <style>
 
-	/* CSS Goes Here */
+	#projectList {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1em;
+		margin-top: 18em;
+	}
 	
 </style>

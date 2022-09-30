@@ -30,7 +30,6 @@
 		gap: 1em;
 		margin: 0 auto;
 		color: var(--mutedFontColor);
-		user-select: none;
 	}
 
 	i {

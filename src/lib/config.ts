@@ -8,7 +8,7 @@ import type { Config, Project } from '$lib/types';
 const projectsList: Project[] = [
   {
     title: 'WeaverFi',
-    subtitle: 'The open‑source, multi‑chain DeFi portfolio tracker.',
+    subtitle: 'The open‑source, multi‑chain DeFi portfolio tracker',
     description: 'WeaverFi is the solution to scalability issues of existing portfolio trackers. An ever‑expanding repository of tools for the everyday DeFi user and a robust framework for anyone to integrate their own dapp.',
     image: '/projects/weaverfi.png',
     link: 'https://weaver.fi/',
