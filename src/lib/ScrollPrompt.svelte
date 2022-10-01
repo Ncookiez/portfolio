@@ -29,7 +29,9 @@
 		align-items: center;
 		gap: 1em;
 		margin: 0 auto;
+		padding: 0 1em;
 		color: var(--mutedFontColor);
+		text-align: center;
 	}
 
 	i {
@@ -42,6 +44,18 @@
 		}
 		50% {
 			margin: .5em 0 -.5em;
+		}
+	}
+
+	@media screen and (max-width: 530px) {
+		#scrollPrompt {
+			bottom: 3em;
+		}
+	}
+
+	@media screen and (max-height: 980px) {
+		#scrollPrompt {
+			display: none;
 		}
 	}
 	

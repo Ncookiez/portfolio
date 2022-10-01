@@ -19,4 +19,10 @@
 		user-select: none;
 	}
 
+	@media screen and (min-height: 1100px) {
+		main {
+			font-size: 1.2em;
+		}
+	}
+
 </style>

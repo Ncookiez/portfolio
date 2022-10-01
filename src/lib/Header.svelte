@@ -98,7 +98,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1em;	
-		width: 50em;
+		width: min(50em, 100%);
 	}
 
 	#info > h3 {
@@ -108,11 +108,19 @@
 		border-bottom: 4px solid var(--accentColor);
 	}
 
+	#info > p {
+		font-size: .9em;
+	}
+
 	#socials {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: .8em;
+	}
+
+	#socials > h3 {
+		white-space: nowrap;
 	}
 
 	#socials > span {
@@ -165,6 +173,54 @@
 		margin-left: -.8em;
 		border: .8em solid transparent;
 		border-top-color: var(--accentColor);
+	}
+	
+	@media screen and (max-width: 930px) {
+		#banner > img {
+			height: 15em;
+			width: 15em;
+		}
+		h1 {
+			font-size: 4em;
+		}
+		h2 {
+			font-size: 2em;
+		}
+	}
+
+	@media screen and (max-width: 730px) {
+		#banner > img {
+			height: 10em;
+			width: 10em;
+		}
+		h1 {
+			font-size: 3em;
+		}
+		h2 {
+			font-size: 1.5em;
+		}
+	}
+
+	@media screen and (max-width: 530px) {
+		header {
+			gap: 3em;
+		}
+		#banner {
+			flex-direction: column;
+		}
+		#banner > div.text {
+			align-items: center;
+		}
+	}
+
+	@media screen and (max-height: 800px) {
+		header {
+			gap: 3em;
+			margin-top: -2em;
+		}
+		#info {
+			margin-bottom: 1.5em;
+		}
 	}
 	
 </style>
