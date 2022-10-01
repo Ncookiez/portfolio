@@ -23,7 +23,6 @@ html, body {
 	color: var(--fontColor);
 	font-family: 'Silkscreen', sans-serif;
 	background-color: var(--backgroundColor);
-	overflow: hidden auto;
 }
 
 button {

@@ -16,6 +16,7 @@
 
 	main {
 		padding: 5em 1em;
+		overflow-x: hidden;
 		user-select: none;
 	}
 
