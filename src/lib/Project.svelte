@@ -45,7 +45,7 @@
 		display: flex;
 		align-items: center;
 		gap: 1em;
-		width: 55em;
+		width: min(55em, 100%);
 		padding: 1em 2em;
 		border: 3px solid var(--accentColor);
 	}
@@ -96,6 +96,17 @@
 
 	div.links > a:hover {
 		color: var(--fontColor);
+	}
+
+	@media screen and (max-width: 530px) {
+		div.project {
+			flex-direction: column;
+			padding: 1em 2em 2em;
+			text-align: center;
+		}
+		div.info {
+			order: 2;
+		}
 	}
 	
 </style>
