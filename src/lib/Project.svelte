@@ -69,7 +69,6 @@
 	img {
 		height: 8em;
 		width: 8em;
-		/* filter: drop-shadow(0 0 .5em var(--accentColor)); */
 		filter: drop-shadow(0 0 .5em var(--mutedFontColor));
 	}
 
