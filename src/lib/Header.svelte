@@ -24,7 +24,7 @@
 
 	<!-- Welcome Banner -->
 	<div id="banner">
-		<img src="icon.png" alt="Ncookie's Avatar">
+		<img src="./icon.png" alt="Ncookie's Avatar">
 		<div class="text">
 			<h2>Welcome to</h2>
 			<h1>Ncookie's</h1>
