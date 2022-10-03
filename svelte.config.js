@@ -6,7 +6,7 @@ import netlifyAdapter from '@sveltejs/adapter-netlify';
 const config = {
 	preprocess: preprocess(),
 	kit: {
-		adapter: process.env.BUILD_STATIC ? ipfsAdapter({ fallback: 'index.html' }) : netlifyAdapter()
+		adapter: process.env.BUILD_STATIC ? ipfsAdapter({ fallback: 'index.html', removeBuiltInServiceWorkerRegistration: true, injectPagesInServiceWorker: true }) : netlifyAdapter()
 	}
 };
 
