@@ -33,7 +33,6 @@ const projectsList: Project[] = [
     subtitle: 'All the PoolTogether stats you never knew you needed',
     description: 'This contribution to the PoolTogether DAO allows anyone to quickly view interactive stats and charts regarding the protocol.',
     image: 'https://ncookie.ca/projects/poolStats.png',
-    link: 'https://poolstats.xyz/',
     repo: 'https://github.com/Ncookiez/pooltogether-stats'
   },
   {
