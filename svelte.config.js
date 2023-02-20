@@ -1,4 +1,4 @@
-import ipfsAdapter from 'sveltejs-adapter-ipfs';
+import staticAdapter from '@sveltejs/adapter-static';
 import netlifyAdapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
@@ -6,7 +6,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: process.env.BUILD_STATIC ? ipfsAdapter({ fallback: 'index.html' }) : netlifyAdapter()
+		adapter: process.env.BUILD_STATIC ? staticAdapter() : netlifyAdapter()
 	}
 };
 
