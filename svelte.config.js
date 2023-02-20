@@ -6,7 +6,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: process.env.BUILD_STATIC ? ipfsAdapter({ fallback: 'index.html', removeBuiltInServiceWorkerRegistration: true, injectPagesInServiceWorker: true }) : netlifyAdapter()
+		adapter: process.env.BUILD_STATIC ? ipfsAdapter({ fallback: 'index.html' }) : netlifyAdapter()
 	}
 };
 
