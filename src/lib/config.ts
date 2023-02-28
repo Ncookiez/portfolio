@@ -65,5 +65,6 @@ const projectsList: Project[] = [
 export const config: Config = {
   github: 'Ncookiez',
   twitter: 'ncookie_eth',
+  lens: 'ncookie',
   projects: projectsList
 };
