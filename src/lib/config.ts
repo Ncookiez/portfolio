@@ -7,11 +7,12 @@ import type { Config, Project } from '$lib/types';
 // Projects List:
 const projectsList: Project[] = [
   {
-    title: 'PoolTogether Hyperstructure App (WIP)',
-    subtitle: 'The final version of the PoolTogether protocol',
-    description: 'With the PoolTogether hyperstructure, we bring the best of V3 and V4 together into a permissionless, forever-software for prize savings worldwide. This is one of the apps to interact with it.',
-    image: 'https://ncookie.ca/projects/poolHyper.png',
-    repo: 'https://github.com/pooltogether/pooltogether-client-monorepo'
+    title: 'Cabana',
+    subtitle: 'Interfaces for the PoolTogether Hyperstructure',
+    description: 'Cabana is a series of interfaces, packages and APIs to interact with the PoolTogether Hyperstructure, the permissionless forever-software for prize savings worldwide.',
+    image: 'https://ncookie.ca/projects/cabana.png',
+    link: 'https://cabana.fi/',
+    repo: 'https://github.com/GenerationSoftware/pooltogether-client-monorepo'
   },
   {
     title: 'WeaverFi',
