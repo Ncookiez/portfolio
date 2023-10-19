@@ -4,6 +4,7 @@ export interface Config {
   github: string
   twitter: string
   lens: string
+  warpcast: string
   projects: Project[]
 }
 

@@ -46,9 +46,8 @@ const projectsList: Project[] = [
   {
     title: 'Prize Calc',
     subtitle: 'The PoolTogether delegation calculator',
-    description: 'One of my first contributions to the PoolTogether DAO was this app to calculate expected delegation outcomes.',
+    description: 'One of my first contributions to the PoolTogether DAO was this app to calculate expected V4 delegation outcomes.',
     image: 'https://ncookie.ca/projects/prizeCalc.png',
-    link: 'https://prizecalc.com/',
     repo: 'https://github.com/Ncookiez/pooltogether-multidelegator-preview'
   },
   {
@@ -67,5 +66,6 @@ export const config: Config = {
   github: 'Ncookiez',
   twitter: 'ncookie_eth',
   lens: 'ncookie',
+  warpcast: 'ncookie',
   projects: projectsList
 };
