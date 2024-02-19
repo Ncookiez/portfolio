@@ -19,7 +19,6 @@ const projectsList: Project[] = [
     subtitle: 'The open‑source, multi‑chain DeFi portfolio tracker',
     description: 'WeaverFi is the solution to scalability issues of existing portfolio trackers. An ever‑expanding repository of tools for the everyday DeFi user and a robust framework for anyone to integrate their own dapp.',
     image: 'https://ncookie.ca/projects/weaverfi.png',
-    link: 'https://weaver.fi/',
     repo: 'https://github.com/WeaverFi'
   },
   {
