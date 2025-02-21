@@ -15,11 +15,11 @@ const projectsList: Project[] = [
     repo: 'https://github.com/GenerationSoftware/pooltogether-client-monorepo'
   },
   {
-    title: 'WeaverFi',
-    subtitle: 'The open‑source, multi‑chain DeFi portfolio tracker',
-    description: 'WeaverFi is the solution to scalability issues of existing portfolio trackers. An ever‑expanding repository of tools for the everyday DeFi user and a robust framework for anyone to integrate their own dapp.',
-    image: 'https://ncookie.ca/projects/weaverfi.png',
-    repo: 'https://github.com/WeaverFi'
+    title: 'DSKit',
+    subtitle: 'Dapp Survival Kit',
+    description: 'A lightweight SDK to help develop decentralized applications with minimal dependencies.',
+    image: 'https://ncookie.ca/projects/dskit.svg',
+    repo: 'https://github.com/Ncookiez/dskit',
   },
   {
     title: 'World Hash',
@@ -34,6 +34,13 @@ const projectsList: Project[] = [
     description: 'We made it to the finals of ETHToronto2022 with this project, where we made it super easy for anyone to monetize their API on-chain.',
     image: 'https://ncookie.ca/projects/3PI.png',
     repo: 'https://github.com/3PIKeys'
+  },
+  {
+    title: 'WeaverFi',
+    subtitle: 'The open‑source, multi‑chain DeFi portfolio tracker',
+    description: 'WeaverFi is the solution to scalability issues of existing portfolio trackers. An ever‑expanding repository of tools for the everyday DeFi user and a robust framework for anyone to integrate their own dapp.',
+    image: 'https://ncookie.ca/projects/weaverfi.png',
+    repo: 'https://github.com/WeaverFi'
   },
   {
     title: 'Pool Stats',
