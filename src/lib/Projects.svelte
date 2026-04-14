@@ -25,7 +25,7 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 3em;
-		margin-top: 18em;
+		margin-top: 20em;
 	}
 
 	h3 {
@@ -35,12 +35,6 @@
 	@media screen and (max-height: 980px) {
 		#projectList {
 			margin-top: 4.5em;
-		}
-	}
-
-	@media screen and (max-width: 530px) {
-		#projectList {
-			margin-top: 3em;
 		}
 	}
 	
