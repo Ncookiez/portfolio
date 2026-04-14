@@ -71,7 +71,6 @@ const projectsList: Project[] = [
 export const config: Config = {
   github: 'Ncookiez',
   twitter: 'ncookie_eth',
-  lens: 'ncookie',
-  warpcast: 'ncookie',
+  discord: 'ncookie',
   projects: projectsList
 };

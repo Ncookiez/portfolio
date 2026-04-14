@@ -3,8 +3,7 @@
 export interface Config {
   github: string
   twitter: string
-  lens: string
-  warpcast: string
+  discord: string
   projects: Project[]
 }
 
