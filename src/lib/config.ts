@@ -30,8 +30,8 @@ const projectsList: Project[] = [
   },
   {
     title: '3PI',
-    subtitle: 'The toolkit for on-chain API key management',
-    description: 'We made it to the finals of ETHToronto2022 with this project, where we made it super easy for anyone to monetize their API on-chain.',
+    subtitle: 'The toolkit for onchain API key management',
+    description: 'We made it to the finals of ETHToronto2022 with this project, where we made it super easy for anyone to monetize their API onchain.',
     image: 'https://ncookie.ca/projects/3PI.png',
     repo: 'https://github.com/3PIKeys'
   },
