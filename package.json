@@ -1,6 +1,6 @@
 {
 	"name": "ncookie-portfolio",
-	"version": "1.4.4",
+	"version": "1.4.5",
 	"type": "module",
 	"private": true,
 	"scripts": {
@@ -9,7 +9,6 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "2.0.5",
 		"@sveltejs/adapter-static": "2.0.1",
 		"@sveltejs/kit": "1.7.2",
 		"svelte": "3.55.1",
