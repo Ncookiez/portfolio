@@ -11,7 +11,6 @@ const projectsList: Project[] = [
     subtitle: 'Interfaces for the PoolTogether Hyperstructure',
     description: 'Cabana is a series of interfaces, packages and APIs to interact with the PoolTogether Hyperstructure, the permissionless forever-software for prize savings worldwide.',
     image: 'https://ncookie.ca/projects/cabana.png',
-    link: 'https://cabana.fi/',
     repo: 'https://github.com/GenerationSoftware/pooltogether-client-monorepo'
   },
   {
